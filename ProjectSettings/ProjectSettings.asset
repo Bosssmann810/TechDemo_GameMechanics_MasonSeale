@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 00000000000000000000000000000000
+  productGUID: 2027d87b692a7814ebd4fd8a9bd65506
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -824,7 +824,7 @@ PlayerSettings:
   cloudProjectId: fcac977e-9616-456b-9594-6b53dbad30bf
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
+  projectName: TechDemo_GameMechanics_MasonSeale
   organizationId: bossman81
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
