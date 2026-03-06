@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 9ecdaa3f52bb87749a64b10219cb6809
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7589235502461895799
+    second: RobotCharacter (6)_0
+  - first:
+      213: 6806937779090297836
+    second: RobotCharacter (6)_1
+  - first:
+      213: -1813636409667610461
+    second: RobotCharacter (6)_2
+  - first:
+      213: -2832442823400694951
+    second: RobotCharacter (6)_3
+  - first:
+      213: -3192632299928639357
+    second: RobotCharacter (6)_4
+  - first:
+      213: 2583934495432653544
+    second: RobotCharacter (6)_5
+  - first:
+      213: 3231585269571712040
+    second: RobotCharacter (6)_6
+  - first:
+      213: -6665155382946386168
+    second: RobotCharacter (6)_7
+  - first:
+      213: 5864939410518071223
+    second: RobotCharacter (6)_8
+  - first:
+      213: 7330322485896460581
+    second: RobotCharacter (6)_9
+  - first:
+      213: -612227475189383448
+    second: RobotCharacter (6)_10
+  - first:
+      213: 7441723070199709781
+    second: RobotCharacter (6)_11
+  - first:
+      213: -1577484134149179145
+    second: RobotCharacter (6)_12
+  - first:
+      213: 3695337560010965037
+    second: RobotCharacter (6)_13
+  - first:
+      213: -3105211359953758934
+    second: RobotCharacter (6)_14
+  - first:
+      213: -428092386599388990
+    second: RobotCharacter (6)_15
+  - first:
+      213: -2442787466426305868
+    second: RobotCharacter (6)_16
+  - first:
+      213: 4746740458704562066
+    second: RobotCharacter (6)_17
+  - first:
+      213: -841757515337437701
+    second: RobotCharacter (6)_18
+  - first:
+      213: -7046929916752434889
+    second: RobotCharacter (6)_19
+  - first:
+      213: 8876861412294701165
+    second: RobotCharacter (6)_20
+  - first:
+      213: 8124495510694884058
+    second: RobotCharacter (6)_21
+  - first:
+      213: -6713833498183604019
+    second: RobotCharacter (6)_22
+  - first:
+      213: 5897380837424888117
+    second: RobotCharacter (6)_23
+  - first:
+      213: -1703806029434275792
+    second: RobotCharacter (6)_24
+  - first:
+      213: 4043158079670202791
+    second: RobotCharacter (6)_25
+  - first:
+      213: -8025151857624241178
+    second: RobotCharacter (6)_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RobotCharacter (6)_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 593
+        width: 116
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7744601ea71625960800000000000000
+      internalID: 7589235502461895799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_1
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 593
+        width: 116
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce31dda68d9177e50800000000000000
+      internalID: 6806937779090297836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_2
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 593
+        width: 116
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a81c026b4ba4d6e0800000000000000
+      internalID: -1813636409667610461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_3
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 713
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95bd890524421b8d0800000000000000
+      internalID: -2832442823400694951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_4
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 593
+        width: 126
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388a058a6dd71b3d0800000000000000
+      internalID: -3192632299928639357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_5
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 695
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea342bbbbafbd320800000000000000
+      internalID: 2583934495432653544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_6
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 671
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824f4365ea5e8dc20800000000000000
+      internalID: 3231585269571712040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_7
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 653
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80fa2b22e7c9083a0800000000000000
+      internalID: -6665155382946386168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_8
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 629
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b75e11f153746150800000000000000
+      internalID: 5864939410518071223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_9
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 605
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 529bae496798ab560800000000000000
+      internalID: 7330322485896460581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_10
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 533
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee3a93ea5ee087f0800000000000000
+      internalID: -612227475189383448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_11
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 401
+        width: 129
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550451454bf464760800000000000000
+      internalID: 7441723070199709781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_12
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 401
+        width: 116
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f83931b986ab1ae0800000000000000
+      internalID: -1577484134149179145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_13
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 401
+        width: 116
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20cc9d9ee9784330800000000000000
+      internalID: 3695337560010965037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_14
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 509
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25d27168b218e4d0800000000000000
+      internalID: -3105211359953758934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_15
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 401
+        width: 116
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c8b1b51e3c1f0af0800000000000000
+      internalID: -428092386599388990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 491
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b232e1edb9791ed0800000000000000
+      internalID: -2442787466426305868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_17
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 473
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2976f024c4fcfd140800000000000000
+      internalID: 4746740458704562066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_18
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 449
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfdeb47eff97154f0800000000000000
+      internalID: -841757515337437701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_19
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 419
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739e5e2b396443e90800000000000000
+      internalID: -7046929916752434889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_20
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 209
+        width: 116
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60b2304c62f03b70800000000000000
+      internalID: 8876861412294701165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_21
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 221
+        width: 122
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2793e1f9100c070800000000000000
+      internalID: 8124495510694884058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_22
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 221
+        width: 122
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8e5ab310ca3d2a0800000000000000
+      internalID: -6713833498183604019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_23
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 221
+        width: 128
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539f7ef30a4b7d150800000000000000
+      internalID: 5897380837424888117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_24
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 11
+        width: 128
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038b661817dda58e0800000000000000
+      internalID: -1703806029434275792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_25
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 17
+        width: 116
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a13e751ade2c1830800000000000000
+      internalID: 4043158079670202791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (6)_26
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 17
+        width: 116
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ebadb197eee0a090800000000000000
+      internalID: -8025151857624241178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 27a02eff45be8f444b9327a084a619ce
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RobotCharacter (6)_0: 7589235502461895799
+      RobotCharacter (6)_1: 6806937779090297836
+      RobotCharacter (6)_10: -612227475189383448
+      RobotCharacter (6)_11: 7441723070199709781
+      RobotCharacter (6)_12: -1577484134149179145
+      RobotCharacter (6)_13: 3695337560010965037
+      RobotCharacter (6)_14: -3105211359953758934
+      RobotCharacter (6)_15: -428092386599388990
+      RobotCharacter (6)_16: -2442787466426305868
+      RobotCharacter (6)_17: 4746740458704562066
+      RobotCharacter (6)_18: -841757515337437701
+      RobotCharacter (6)_19: -7046929916752434889
+      RobotCharacter (6)_2: -1813636409667610461
+      RobotCharacter (6)_20: 8876861412294701165
+      RobotCharacter (6)_21: 8124495510694884058
+      RobotCharacter (6)_22: -6713833498183604019
+      RobotCharacter (6)_23: 5897380837424888117
+      RobotCharacter (6)_24: -1703806029434275792
+      RobotCharacter (6)_25: 4043158079670202791
+      RobotCharacter (6)_26: -8025151857624241178
+      RobotCharacter (6)_3: -2832442823400694951
+      RobotCharacter (6)_4: -3192632299928639357
+      RobotCharacter (6)_5: 2583934495432653544
+      RobotCharacter (6)_6: 3231585269571712040
+      RobotCharacter (6)_7: -6665155382946386168
+      RobotCharacter (6)_8: 5864939410518071223
+      RobotCharacter (6)_9: 7330322485896460581
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

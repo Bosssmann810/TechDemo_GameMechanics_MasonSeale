@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 10085e3cd6e12a444ab0e393e99a3807
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8735390809237726974
+    second: RobotCharacter (2)_0
+  - first:
+      213: -8484743368371849653
+    second: RobotCharacter (2)_1
+  - first:
+      213: -5952562571947796599
+    second: RobotCharacter (2)_2
+  - first:
+      213: 8180044308535606929
+    second: RobotCharacter (2)_3
+  - first:
+      213: -3682968125486362920
+    second: RobotCharacter (2)_4
+  - first:
+      213: 551561141221432988
+    second: RobotCharacter (2)_5
+  - first:
+      213: -1641173672945337837
+    second: RobotCharacter (2)_6
+  - first:
+      213: 5679521506091081645
+    second: RobotCharacter (2)_7
+  - first:
+      213: 3354604993192432630
+    second: RobotCharacter (2)_8
+  - first:
+      213: -729492916570891689
+    second: RobotCharacter (2)_9
+  - first:
+      213: 623430192798908087
+    second: RobotCharacter (2)_10
+  - first:
+      213: -5405835486482286464
+    second: RobotCharacter (2)_11
+  - first:
+      213: 565171010205084474
+    second: RobotCharacter (2)_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RobotCharacter (2)_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 593
+        width: 116
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6a3dea8a75a3970800000000000000
+      internalID: 8735390809237726974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (2)_1
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 593
+        width: 116
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4638dd4cd2204a80800000000000000
+      internalID: -8484743368371849653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (2)_2
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 593
+        width: 116
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98714cbf0ef346da0800000000000000
+      internalID: -5952562571947796599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (2)_3
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 593
+        width: 116
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e783975fa558170800000000000000
+      internalID: 8180044308535606929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (2)_4
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 401
+        width: 116
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de8c49c00873ecc0800000000000000
+      internalID: -3682968125486362920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (2)_5
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 401
+        width: 116
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e99668fe987a700800000000000000
+      internalID: 551561141221432988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (2)_6
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 401
+        width: 116
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31abe516d316939e0800000000000000
+      internalID: -1641173672945337837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (2)_7
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 413
+        width: 122
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf10c8e7b6b1de40800000000000000
+      internalID: 5679521506091081645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (2)_8
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 221
+        width: 122
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f39cf4c773fd8e20800000000000000
+      internalID: 3354604993192432630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (2)_9
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 221
+        width: 128
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ad0a1be0250e5f0800000000000000
+      internalID: -729492916570891689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (2)_10
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 203
+        width: 128
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be3800157ed6a800800000000000000
+      internalID: 623430192798908087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (2)_11
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 209
+        width: 116
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 088b502344d9af4b0800000000000000
+      internalID: -5405835486482286464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotCharacter (2)_12
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 17
+        width: 116
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b6f941a04e7d700800000000000000
+      internalID: 565171010205084474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RobotCharacter (2)_0: 8735390809237726974
+      RobotCharacter (2)_1: -8484743368371849653
+      RobotCharacter (2)_10: 623430192798908087
+      RobotCharacter (2)_11: -5405835486482286464
+      RobotCharacter (2)_12: 565171010205084474
+      RobotCharacter (2)_2: -5952562571947796599
+      RobotCharacter (2)_3: 8180044308535606929
+      RobotCharacter (2)_4: -3682968125486362920
+      RobotCharacter (2)_5: 551561141221432988
+      RobotCharacter (2)_6: -1641173672945337837
+      RobotCharacter (2)_7: 5679521506091081645
+      RobotCharacter (2)_8: 3354604993192432630
+      RobotCharacter (2)_9: -729492916570891689
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
