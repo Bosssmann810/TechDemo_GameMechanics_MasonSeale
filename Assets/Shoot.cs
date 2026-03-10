@@ -13,27 +13,12 @@ public class Shoot : MonoBehaviour
         _laser.SetActive(false);
     }
 
-    public void OnShoot(InputAction.CallbackContext context)
-    {
-        /*
-        if (context.started)
-        {
-            Debug.Log("Shooting");
-            _laser.SetActive(false);
-            shooting = true;
-        }
-        if (context.canceled)
-        {
-            shooting = false;
-            _laser.SetActive(false);
-        }
-        */
-    }
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.T))
         {
+            Debug.Log("pewpew");
             shooting = true;
             _laser.SetActive(true);
         }
