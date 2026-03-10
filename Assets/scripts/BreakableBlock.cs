@@ -1,45 +1,48 @@
 using System.Collections;
+using System.Net.Mail;
 using UnityEngine;
 
 public class BreakableBlock : MonoBehaviour, IDamageable
 {
     bool started = false;
-    public int hp;
-    public bool invincible;
+    public int hp = 1000;
+    public Sprite currentSprite;
+    public Sprite healthySprite;
+    public Sprite hurtSprite;
+    public Sprite veryHurtSprite;
+    public SpriteRenderer renderer;
+    
    // public Animation iFrames;
     public void Start()
     {
-       // iFrames = GetComponent<Animation>();
+        renderer = gameObject.GetComponent<SpriteRenderer>();
+        currentSprite = healthySprite;
+        renderer.sprite = currentSprite;
     }
-    public IEnumerator TakeDamage()
+    public void TakeDamage()
     {
-        while (true)
-        {
             Debug.Log("ow");
             hp -= 1;
-            invincible = true;
-            yield return new WaitForSeconds(2);
-            Debug.Log("ended");
-            invincible = false;
-        }
     }
 
     public void Update()
     {
-        /*
-        if(invincible == true)
-        {
-            iFrames.Play();
-        }
-        if(invincible == false)
-        {
-            iFrames.Stop();
-        }
-        */
-        if(hp <= 0)
+        if (hp <= 0)
         {
             Destroy(this.gameObject);
         }
-
+        SpriteChangeByHP();
+    }
+    public void SpriteChangeByHP()
+    {
+        if(hp <= 500)
+        {
+            currentSprite = hurtSprite;
+        }
+        if (hp <= 250)
+        {
+            currentSprite = veryHurtSprite;
+        }
+        renderer.sprite = currentSprite;
     }
 }

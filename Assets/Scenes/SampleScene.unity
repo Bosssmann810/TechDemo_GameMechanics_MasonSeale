@@ -2409,7 +2409,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 00000000
+  m_ApplyToSortingLayers: 00000000fd86763f
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -2696,7 +2696,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 1000
-  invincible: 0
+  currentSprite: {fileID: 21300000, guid: 90ef45e3155864c4db9b4e73a2f8cf17, type: 3}
+  healthySprite: {fileID: 21300000, guid: aa0c8b4cda384dd4ea3a01c83d2e82cd, type: 3}
+  hurtSprite: {fileID: 21300000, guid: 8936e79e93ed84644a2abb4cb658303f, type: 3}
+  veryHurtSprite: {fileID: 21300000, guid: 9cfd414f912d25243bcf0df5a47bec49, type: 3}
+  renderer: {fileID: 0}
 --- !u!61 &1563894946
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2784,8 +2788,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1064732413
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3091,7 +3095,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6844704700046130236, guid: 3bbbb6b0182c0704ca6aa96f91c4a547, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.9662
+      value: -3.87
       objectReference: {fileID: 0}
     - target: {fileID: 6844704700046130236, guid: 3bbbb6b0182c0704ca6aa96f91c4a547, type: 3}
       propertyPath: m_LocalPosition.z

@@ -25,7 +25,7 @@ public class laser : MonoBehaviour
     {
         if (target != null)
         {
-            StartCoroutine(target.TakeDamage());
+            target.TakeDamage();
         }
     }
 }

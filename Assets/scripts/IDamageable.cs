@@ -3,5 +3,5 @@ using System.Collections;
 
 public interface IDamageable 
 {
-    public IEnumerator TakeDamage();
+    public void TakeDamage();
 }
