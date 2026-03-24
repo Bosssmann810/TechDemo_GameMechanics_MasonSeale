@@ -8,7 +8,7 @@ public class Portal : MonoBehaviour
     Vector3 exitLocation;
     bool interact = false;
     bool inrange = false;
-    
+    public ParticleSystem exitParitcle;
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -38,6 +38,7 @@ public class Portal : MonoBehaviour
         if(interact && inrange)
         {
             player.transform.position = exitLocation;
+            exitParitcle.Play();
         }
         
     }

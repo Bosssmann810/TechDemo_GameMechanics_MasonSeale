@@ -62,7 +62,7 @@ public class PlayerSoundManager : MonoBehaviour
         //first of all, if the last sprite is equal to the current sprite dont play the sounds, (this prevents it from spamming the sound every frame)
         if(currentsprite == lastsprite)
         {
-            Debug.Log("not happening");
+            
             return;
         }
         //then if the sprite is equal to one of the jump sprites, then you cna play the sound 

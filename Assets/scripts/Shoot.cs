@@ -8,7 +8,9 @@ public class Shoot : MonoBehaviour
     public int shoothash = Animator.StringToHash("Shoot");
     private bool shooting = false;
     public PlayerSoundManager SoundManager;
-    
+    private int facingDirection =1;
+
+
     void Start()
     {
         _laser.SetActive(false);
@@ -30,10 +32,22 @@ public class Shoot : MonoBehaviour
             _laser.SetActive(false);
             SoundManager.LaserAudioOff();
         }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            facingDirection = -1;
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            facingDirection = 1;
+        }
         HandleShootingAnimation();
     }
     public void HandleShootingAnimation()
     {
         playerAnimator.SetBool(shoothash, shooting);
+    }
+    public int GiveDirection()
+    {
+        return facingDirection;
     }
 }
