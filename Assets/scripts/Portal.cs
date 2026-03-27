@@ -9,6 +9,8 @@ public class Portal : MonoBehaviour
     bool interact = false;
     bool inrange = false;
     public ParticleSystem exitParitcle;
+    public AudioClip exitSound;
+    public AudioSource audiosource;
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -39,6 +41,9 @@ public class Portal : MonoBehaviour
         {
             player.transform.position = exitLocation;
             exitParitcle.Play();
+            audiosource.clip = exitSound;
+            audiosource.Play();
+
         }
         
     }
