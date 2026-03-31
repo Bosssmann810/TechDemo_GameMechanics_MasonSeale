@@ -20503,6 +20503,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 98641745681628023, guid: 5400993c9311ed14684a0954892aa489, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.33
+      objectReference: {fileID: 0}
     - target: {fileID: 8038865469366269315, guid: 5400993c9311ed14684a0954892aa489, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.06737077
@@ -20546,6 +20550,10 @@ PrefabInstance:
     - target: {fileID: 8038865469366269341, guid: 5400993c9311ed14684a0954892aa489, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8364858236973867857, guid: 5400993c9311ed14684a0954892aa489, type: 3}
+      propertyPath: defaultDistance
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20798,6 +20806,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: checkpoint
       objectReference: {fileID: 0}
+    - target: {fileID: 2666676279058420209, guid: 3bbbb6b0182c0704ca6aa96f91c4a547, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6844704700046130236, guid: 3bbbb6b0182c0704ca6aa96f91c4a547, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.396
@@ -20837,6 +20849,10 @@ PrefabInstance:
     - target: {fileID: 6844704700046130236, guid: 3bbbb6b0182c0704ca6aa96f91c4a547, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7941842461320254850, guid: 3bbbb6b0182c0704ca6aa96f91c4a547, type: 3}
+      propertyPath: m_ContactCaptureLayers.m_Bits
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20888,6 +20904,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: automatic door
       objectReference: {fileID: 0}
+    - target: {fileID: 2051453287514985121, guid: 767fc71726619e3478f375b551c97ada, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3543709898813381447, guid: 767fc71726619e3478f375b551c97ada, type: 3}
       propertyPath: m_LocalPosition.x
       value: 22.49
@@ -20936,6 +20956,10 @@ PrefabInstance:
       propertyPath: sound
       value: 
       objectReference: {fileID: 8300000, guid: b5cbdb0c823b54c47860f9c1d67627bb, type: 3}
+    - target: {fileID: 7668191962186598751, guid: 767fc71726619e3478f375b551c97ada, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8139414780733641838, guid: 767fc71726619e3478f375b551c97ada, type: 3}
       propertyPath: Priority
       value: 0
@@ -21059,7 +21083,7 @@ GameObject:
   - component: {fileID: 838948221417662129}
   - component: {fileID: 3448378548452671045}
   - component: {fileID: 6941561987950274545}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: automatic door 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

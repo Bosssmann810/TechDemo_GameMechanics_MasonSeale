@@ -5,7 +5,7 @@ using UnityEngine.Rendering.UI;
 
 public class laser : MonoBehaviour
 {
-    [SerializeField] float defaultDistance = 150f;
+    [SerializeField] float defaultDistance = 20f;
     public IDamageable target;
     public Transform maxRangeObject;
     public Transform firePoint;
@@ -31,10 +31,10 @@ public class laser : MonoBehaviour
         if (facingDirection > 0)
         {
             //shoot a raycast
-            if (Physics2D.Raycast(firePoint.position, firePoint.transform.right,layerMask))
+            if (Physics2D.Raycast(firePoint.position, firePoint.transform.right,defaultDistance, layerMask))
             {
                 //ind what we hit
-                RaycastHit2D hit = Physics2D.Raycast(firePoint.position, transform.right);
+                RaycastHit2D hit = Physics2D.Raycast(firePoint.position, transform.right,defaultDistance, layerMask);
 
                 Debug.Log($"laser hit: {hit.collider.gameObject}");
                 //if it can be damaged
@@ -67,9 +67,9 @@ public class laser : MonoBehaviour
         //same stuff but for the left side
         if(facingDirection < 0)
         {
-            if (Physics2D.Raycast(firePoint.position, firePoint.transform.right * -1))
+            if (Physics2D.Raycast(firePoint.position, firePoint.transform.right * -1, defaultDistance, layerMask))
             {
-                RaycastHit2D hit = Physics2D.Raycast(firePoint.position, transform.right * -1);
+                RaycastHit2D hit = Physics2D.Raycast(firePoint.position, transform.right * -1,defaultDistance, layerMask);
                 Debug.Log($"laser hit: {hit.collider.gameObject}");
 
                 if (hit.collider.gameObject.TryGetComponent(out IDamageable targethit))
