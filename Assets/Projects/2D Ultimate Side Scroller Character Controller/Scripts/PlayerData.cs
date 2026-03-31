@@ -62,7 +62,7 @@ namespace UltimateCC
             [SerializeField, NonEditable] private int wallDirection;
             [SerializeField, NonEditable] private bool canJump, cutJump, canBumpHead, canSlideCorner, canWallJump;
             [SerializeField, NonEditable] private Rigidbody2D collidedMovingRigidbody;
-            [SerializeField, NonEditable] private Vector2 localVelocity;
+            [SerializeField] public Vector2 localVelocity;
             [SerializeField, Inform("Experimental")] private bool useCustomZRotations;
             public SlopeVariables Slope;
             public PlatformVariables Platform;

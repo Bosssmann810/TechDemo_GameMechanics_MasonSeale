@@ -11,7 +11,8 @@ namespace UltimateCC
         public enum AnimName { Idle, Walk, Jump, ExtraJump1, ExtraJump2, Land, Dash, CrouchIdle, CrouchWalk, WallGrab, WallClimb, WallJump, WallSlide, IdleShoot, WalkShoot } // Enum declaration of state names as animator parameters
 
         [NonSerialized] public Animator Animator; // The Animator is used to control the player's animations based on their current state.
-        [NonSerialized] public Rigidbody2D Rigidbody2D; // The Rigidbody2D is used to control movement based on velocity vector.
+        [NonSerialized] public Rigidbody2D Rigidbody2D; // The Rigidbody2D is used to control movement based on
+                                                        // vector.
         [NonSerialized] public PlayerInputManager InputManager; // The PlayerInputManager handles all user input and sends it to the state machine.
         [NonSerialized] public CapsuleCollider2D CapsuleCollider2D; // CapsuleCollider2D is used to handle slopes and define the ground check position in the base state class: "State.cs".
 
@@ -70,6 +71,10 @@ namespace UltimateCC
         private void FixedUpdate()
         {
             _stateMachine.CurrentState.FixedUpdate(); // FixedUpdate method of current state at runtime
+        }
+        public PlayerData.PhysicsVariables Setvelocity()
+        {
+            return PlayerData.Physics;
         }
     }
 }

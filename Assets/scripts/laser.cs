@@ -5,7 +5,7 @@ using UnityEngine.Rendering.UI;
 
 public class laser : MonoBehaviour
 {
-    [SerializeField] float defaultDistance = 20f;
+    [SerializeField] float defaultDistance;
     public IDamageable target;
     public Transform maxRangeObject;
     public Transform firePoint;
