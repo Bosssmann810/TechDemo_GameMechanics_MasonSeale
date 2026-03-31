@@ -10,7 +10,7 @@ public class MovingPlatform : MonoBehaviour
     public float speed;
     public Vector2 previousPos;
     public Vector2 velocity;
-    public PlayerMain playerRB;
+    public GameObject test;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -35,6 +35,7 @@ public class MovingPlatform : MonoBehaviour
             target = PointA;
         }
         previousPos = body.position;
+        
     }
     public void OnCollisionEnter2D(Collision2D collision)
     {
@@ -43,8 +44,7 @@ public class MovingPlatform : MonoBehaviour
             Debug.Log("player is on");
             //something is going wrong here
             
-            playerRB.PlayerData.Physics.localVelocity += velocity;
-            
+
         }
     }
     public void OnCollisionExit2D(Collision2D collision)
