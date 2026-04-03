@@ -22863,6 +22863,10 @@ PrefabInstance:
       propertyPath: m_IncludeLayers.m_Bits
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 8038865469366269314, guid: 5400993c9311ed14684a0954892aa489, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8038865469366269315, guid: 5400993c9311ed14684a0954892aa489, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.06737137
