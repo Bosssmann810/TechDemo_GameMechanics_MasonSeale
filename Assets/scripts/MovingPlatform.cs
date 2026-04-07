@@ -37,23 +37,26 @@ public class MovingPlatform : MonoBehaviour
         previousPos = body.position;
         
     }
-    public void OnCollisionEnter2D(Collision2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Ball"))
         {
-            Debug.Log("player is on");
-            //something is going wrong here
-            
+            Debug.Log("ball is on");
+
+            collision.gameObject.transform.SetParent(gameObject.transform);
+            collision.gameObject.GetComponent<BallReset>().OnPlatform();
+        }
+
+    }
+    public void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ball"))
+        {
+            Debug.Log("ball is off");
+            collision.gameObject.transform.SetParent(null);
+            collision.gameObject.GetComponent<BallReset>().OffPlatform();
 
         }
-    }
-    public void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            Debug.Log("player is off");
-            //something is going wrong here
-            
-        }
+
     }
 }
