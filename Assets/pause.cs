@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 public class pause : MonoBehaviour
 {
     public bool paused = false;
-
+    public GameObject pauseFilter;
     public void OnPause(InputAction.CallbackContext context)
     {
         if(paused == false)
@@ -12,6 +12,7 @@ public class pause : MonoBehaviour
             Debug.Log("Paused");
             paused = true;
             Time.timeScale = 0;
+            pauseFilter.SetActive(true);
             return;
         }
         if(paused == true)
@@ -19,6 +20,7 @@ public class pause : MonoBehaviour
             Debug.Log("Unpaused");
             paused = false;
             Time.timeScale = 1;
+            pauseFilter.SetActive(false);
             return;
         }
         
