@@ -52,8 +52,8 @@ public class PlayerSoundManager : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.E))
         {
-            playerAudio.clip = DashSound;
-            playerAudio.Play();
+            //playerAudio.clip = DashSound;
+           // playerAudio.Play();
         }
     }
     //you have no idea how much effort went into making the jump sound work

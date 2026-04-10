@@ -5,7 +5,8 @@ using UnityEngine;
 public class BreakableBlock : MonoBehaviour, IDamageable
 {
     bool started = false;
-    public int hp = 1000;
+    public int hp;
+    private int maxHP;
     public Sprite currentSprite;
     public Sprite healthySprite;
     public Sprite hurtSprite;
@@ -15,6 +16,7 @@ public class BreakableBlock : MonoBehaviour, IDamageable
    // public Animation iFrames;
     public void Start()
     {
+        maxHP = hp;
         renderer = gameObject.GetComponent<SpriteRenderer>();
         currentSprite = healthySprite;
         renderer.sprite = currentSprite;
@@ -35,11 +37,11 @@ public class BreakableBlock : MonoBehaviour, IDamageable
     }
     public void SpriteChangeByHP()
     {
-        if(hp <= 500)
+        if(hp <= maxHP / 2)
         {
             currentSprite = hurtSprite;
         }
-        if (hp <= 250)
+        if (hp <= maxHP / 4)
         {
             currentSprite = veryHurtSprite;
         }
