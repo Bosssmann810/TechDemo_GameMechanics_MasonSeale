@@ -43,8 +43,6 @@ public class Portal : MonoBehaviour
             exitParitcle.Play();
             audiosource.clip = exitSound;
             audiosource.Play();
-
         }
-        
     }
 }

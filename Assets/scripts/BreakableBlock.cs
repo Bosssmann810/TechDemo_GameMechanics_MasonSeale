@@ -23,8 +23,8 @@ public class BreakableBlock : MonoBehaviour, IDamageable
     }
     public void TakeDamage()
     {
-            Debug.Log("ow");
-            hp -= 1;
+        Debug.Log("ow");
+        hp -= 1;
     }
 
     public void Update()
